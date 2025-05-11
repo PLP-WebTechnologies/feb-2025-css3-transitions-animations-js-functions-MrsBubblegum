@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Preferences App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>🎨 Preferences App</h1>
+
+    <button onclick="toggleTheme()">Toggle Dark Mode</button>
+    <br>
+
+    <label for="fontSize">Choose Font Size:</label>
+    <select id="fontSize" onchange="changeFontSize(this.value)">
+        <option value="medium">Medium</option>
+        <option value="small">Small</option>
+        <option value="large">Large</option>
+    </select>
+    <br>
+
+    <button onclick="animateImage()">Animate Image</button>
+    <br>
+
+    <img id="logo" src="https://media.printler.com/media/photo/139095.jpg?rmode=crop&width=638&height=900" alt="Animated Image" />
+
+    <script src="script.js"></script>
+
+    <footer> This page was coded with 💕 by Cherozade B.</footer>
+</body>
+
+</html>
